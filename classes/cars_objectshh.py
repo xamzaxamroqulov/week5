@@ -1,5 +1,5 @@
 # from classes.cars import *
-from classes.cars import Car, ElectricCar
+from classes.carshh import Car, ElectricCar
 from collections import OrderedDict
 
 car1 = Car('toyota', 'highlander', '2020')
@@ -21,7 +21,7 @@ car1.set_odometer(1500)
 print(car1.read_odometer())
 
 car1.increment_odometer(-500)
-assert  car1.read_odometer() == 1500
+car1.read_odometer() == 1500
 print(car1.read_odometer())
 
 car1.increment_odometer(400)
